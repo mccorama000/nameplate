@@ -78,11 +78,7 @@ h1 {
     }
 }
 
-.rubberBand {
-   
-}
-
-img:hover {
+article img:hover {
     animation: rubberBand 1s infinite;
 }
 
