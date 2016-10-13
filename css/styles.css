@@ -2,6 +2,41 @@
 YOUR STYLES
 *******************/
 
+* {
+    font-family: avenir;
+    letter-spacing: .5px;
+}
+
+article {
+    background: grey;
+    margin: 0 auto;
+    padding: 3em;
+   
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.char1 {
+    transform: rotate(-5deg);
+}
+
+.char8 {
+    transform: rotate(15deg);
+}
+
+.char1, .char8 {
+    background: teal;
+    padding: 4px;
+    border-bottom: 20px solid #fff;
+    box-shadow: inset 0 0 8px white;
+    display: inline-block;
+}
 
 
 
