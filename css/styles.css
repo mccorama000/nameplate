@@ -4,7 +4,6 @@ YOUR STYLES
 
 * {
     font-family: avenir;
-    letter-spacing: .5px;
 }
 
 article {
@@ -14,34 +13,126 @@ article {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 4em;
     text-align: center;
     text-transform: uppercase;
     color: white;
+}
+
+.ex1 {
+    border: 5px solid #ccc;
+    float: left;
+    padding: 10px;
 }
 
 
 /*First Frame*/
 
 .char1,
-.char8 {
-    background: teal;
+.char2,
+.char3,
+.char4,
+.char5,
+.char6,
+.char7,
+.char8,
+.char9,
+.char10,
+.char11,
+.char12,
+.char13,
+.char14,
+.char15,
+.char16 {
+    margin-top: 15px;
+    background: lightgrey;
     padding: 4px;
-    border-bottom: 20px solid #fff;
-    box-shadow: inset 0 0 8px white;
     display: inline-block;
-    transition: transform 2s;
+    transition: transform 1s;
 }
 
 
 /*Last Frame*/
 
 .char1:hover {
-    transform: rotate(-10deg);
+    transform: rotate(-20deg);
+    color: darkgrey;
+    
+}
+
+.char2:hover {
+    transform: rotate(20deg);
+    color: darkgrey;
+}
+
+.char3:hover {
+    transform: rotate(-20deg);
+    color: darkgrey;
+}
+
+.char4:hover {
+    transform: rotate(20deg);
+    color: darkgrey;
+}
+
+.char5:hover {
+    transform: rotate(-20deg);
+    color: darkgrey;
+}
+
+.char6:hover {
+    transform: rotate(20deg);
+    color: darkgrey;
+}
+
+.char7:hover {
+    transform: rotate(-20deg);
+    color: darkgrey;
 }
 
 .char8:hover {
-    transform: rotate(10deg);
+    transform: rotate(20deg);
+    color: darkgrey;
+}
+
+.char9:hover {
+    transform: rotate(-20deg);
+    color: darkgrey;
+}
+
+.char10:hover {
+    transform: rotate(20deg);
+    color: darkgrey;
+}
+
+.char11:hover {
+    transform: rotate(-20deg);
+    color: darkgrey;
+}
+
+.char12:hover {
+    transform: rotate(20deg);
+    color: darkgrey;
+}
+
+.char13:hover {
+    transform: rotate(-20deg);
+    color: darkgrey;
+}
+
+.char14:hover {
+    transform: rotate(20deg);
+    color: darkgrey;
+}
+
+.char15:hover {
+    transform: rotate(-20deg);
+    color: darkgrey;
+}
+
+.char16:hover {
+    transform: rotate(20deg);
+    color: darkgrey;
 }
 
 
