@@ -2,13 +2,12 @@
 $('h1').lettering();
 
 //Make Backstretch Go!!
-$.backstretch("img/mountain.jpg");
+$.backstretch("img");
 
 //Make Masonry Go!!
- $('selector').masonry()
- 
- $('.grid').masonry({
+$('main').masonry({
   // options
-  itemSelector: '.grid-item',
-  columnWidth: 100
+  itemSelector: 'section',
+  columnWidth: 0,
+  gutter: 5
 });

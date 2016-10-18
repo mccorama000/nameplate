@@ -176,6 +176,31 @@ article h1:hover {
     animation: pulse 1s;
 }
 
+/*Masonry Plugin*/
+
+main {
+  margin: 0 auto;
+  width: 50%;
+}
+
+section {
+  background: hotpink;
+  width: 200px;
+  border: 1px dotted white;
+}
+
+.short {
+  height: 200px;
+}
+
+.grande {
+  height: 300px;
+}
+
+.venti {
+  height: 400px;
+}
+
 
 /********************
 MEDIA QUERIES
