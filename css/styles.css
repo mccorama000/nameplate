@@ -39,8 +39,8 @@ p {
 
 img.me {
     border-radius: .8em;
-    height: 60%;
-    width: 60%;
+    height: 40%;
+    width: 40%;
     opacity: 0.9;
     margin: 0 auto;
     display: block;
@@ -86,7 +86,7 @@ article {
 
 
 li {
-    display: inline-block;
+    display: inline;
     margin: 0 auto;
     padding: 30px;
 
@@ -112,14 +112,9 @@ h3 {
 .facebook,
 .instagram,
 .twitter {
-    height: 15%;
-    width: 15%;
+    height: 8%;
+    width: 8%;
 }
-
-/*First Frame*/
-
-
-/*Last Frame*/
 
 h1:hover {
     color: rgba(0, 0, 0, 0.3);
