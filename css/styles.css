@@ -6,25 +6,49 @@ YOUR STYLES
     font-family: avenir;
 }
 
-article {
-    background: lightgray;
-    margin: 0 auto;
-    padding: 3em;
-}
-
 h1 {
-    font-size: 4em;
     text-align: center;
-    text-transform: uppercase;
+}
+
+p {
+    margin-top: 70px;
+    text-align: center;
+}
+
+article {
+    margin: 0 auto;
     color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background: none;
 }
 
-.ex1 {
-    border: 5px solid #ccc;
+.box {
+    margin: 0 auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 25%;
+    padding-top: 0;
+    background-clip: content-box;
     float: left;
-    padding: 10px;
 }
 
+.div {
+    display: block;
+}
+
+.bg-color {
+    margin: 0 auto;
+    color: cornsilk;
+    background: rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: .75em;
+}
 
 /*First Frame*/
 
@@ -44,93 +68,28 @@ h1 {
 .char14,
 .char15,
 .char16 {
-    margin-top: 15px;
-    background: lightgrey;
-    padding: 4px;
-    display: inline-block;
-    transition: transform 1s;
+    margin-top: 15px background: lightgrey padding: 4px display: inline-block transition: transform 1s
 }
 
 
 /*Last Frame*/
 
-.char1:hover {
-    transform: rotate(-20deg);
-    color: darkgrey;
-}
-
-.char2:hover {
-    transform: rotate(20deg);
-    color: darkgrey;
-}
-
-.char3:hover {
-    transform: rotate(-20deg);
-    color: darkgrey;
-}
-
-.char4:hover {
-    transform: rotate(20deg);
-    color: darkgrey;
-}
-
-.char5:hover {
-    transform: rotate(-20deg);
-    color: darkgrey;
-}
-
-.char6:hover {
-    transform: rotate(20deg);
-    color: darkgrey;
-}
-
-.char7:hover {
-    transform: rotate(-20deg);
-    color: darkgrey;
-}
-
-.char8:hover {
-    transform: rotate(20deg);
-    color: darkgrey;
-}
-
-.char9:hover {
-    transform: rotate(-20deg);
-    color: darkgrey;
-}
-
-.char10:hover {
-    transform: rotate(20deg);
-    color: darkgrey;
-}
-
-.char11:hover {
-    transform: rotate(-20deg);
-    color: darkgrey;
-}
-
-.char12:hover {
-    transform: rotate(20deg);
-    color: darkgrey;
-}
-
-.char13:hover {
-    transform: rotate(-20deg);
-    color: darkgrey;
-}
-
-.char14:hover {
-    transform: rotate(20deg);
-    color: darkgrey;
-}
-
-.char15:hover {
-    transform: rotate(-20deg);
-    color: darkgrey;
-}
-
+.char1:hover,
+.char2:hover,
+.char3:hover,
+.char4:hover,
+.char5:hover,
+.char6:hover,
+.char7:hover,
+.char8:hover,
+.char9:hover,
+.char10:hover,
+.char11:hover,
+.char12:hover,
+.char13:hover,
+.char14:hover,
+.char15:hover,
 .char16:hover {
-    transform: rotate(20deg);
     color: darkgrey;
 }
 
@@ -172,35 +131,13 @@ h1 {
     animation-name: pulse;
 }
 
-article h1:hover {
+h1.animated:hover {
     animation: pulse 1s;
 }
 
+
 /*Masonry Plugin*/
-
-main {
-  margin: 0 auto;
-  width: 50%;
-}
-
-section {
-  background: hotpink;
-  width: 200px;
-  border: 1px dotted white;
-}
-
-.short {
-  height: 200px;
-}
-
-.grande {
-  height: 300px;
-}
-
-.venti {
-  height: 400px;
-}
-
+/*Go get masonry CSS from Codepen*/
 
 /********************
 MEDIA QUERIES
