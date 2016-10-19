@@ -6,13 +6,40 @@ YOUR STYLES
     font-family: avenir;
 }
 
+.top-box {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(0deg, #fff, transparent 90%), aquamarine url('../img/mountains.jpg') no-repeat center;
+    background-size: cover;
+    margin: 0 0 0px;
+}
+
 h1 {
+    font-size: 3em;
     text-align: center;
+    margin-top: 175px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .75em;
+    text-shadow: 5px 5px 50px black;
 }
 
 p {
-    margin-top: 70px;
-    text-align: center;
+    margin-top: 100px;
+    text-align: left;
+    color: black;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+img.me {
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding: 50px;
+    border-radius: 15%;
 }
 
 article {
@@ -41,56 +68,30 @@ article {
 
 .bg-color {
     margin: 0 auto;
-    color: cornsilk;
-    background: rgba(0, 0, 0, 0.3);
+    color: black;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
-    border-radius: .75em;
 }
+
+h3,
+ul,
+li {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
 
 /*First Frame*/
-
-.char1,
-.char2,
-.char3,
-.char4,
-.char5,
-.char6,
-.char7,
-.char8,
-.char9,
-.char10,
-.char11,
-.char12,
-.char13,
-.char14,
-.char15,
-.char16 {
-    margin-top: 15px background: lightgrey padding: 4px display: inline-block transition: transform 1s
-}
 
 
 /*Last Frame*/
 
-.char1:hover,
-.char2:hover,
-.char3:hover,
-.char4:hover,
-.char5:hover,
-.char6:hover,
-.char7:hover,
-.char8:hover,
-.char9:hover,
-.char10:hover,
-.char11:hover,
-.char12:hover,
-.char13:hover,
-.char14:hover,
-.char15:hover,
-.char16:hover {
-    color: darkgrey;
+h1:hover {
+    color: rgba(0, 0, 0, 0.3);
 }
 
 
@@ -137,7 +138,10 @@ h1.animated:hover {
 
 
 /*Masonry Plugin*/
+
+
 /*Go get masonry CSS from Codepen*/
+
 
 /********************
 MEDIA QUERIES
