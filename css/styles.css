@@ -81,6 +81,7 @@ article {
     padding-right: 10px;
     padding-bottom: 5px;
     border-radius: .8em;
+
 }
 
 
@@ -118,6 +119,14 @@ h3 {
 h1:hover {
     color: rgba(0, 0, 0, 0.3);
 }
+
+.fade {
+   transition: all .75s ease-in-out;
+   }
+
+.fade:hover {
+     transition: all .75s ease-in-out;
+      }
 
 
 /*Keyframe Animation*/
