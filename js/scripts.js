@@ -2,7 +2,7 @@
 $('h1').lettering();
 
 //Make Backstretch Go!!
-$.backstretch('/nameplate/img/mountains.jpg');
+//$.backstretch('/nameplate/img/mountains.jpg');
 
 //Make Masonry Go!!
 $('.tiles').masonry({
