@@ -16,6 +16,38 @@ YOUR STYLES
     
 }
 
+.tiles {
+    width: 50%;
+    margin: 550px auto;
+
+}
+
+section {
+    float: left;
+    background: none;
+    padding: 1em;
+    width: 175px;
+}
+
+/*Clearfix*/
+section:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.small {
+    height: 200px;
+}
+
+.medium {
+    height: 300px;
+}
+
+.large {
+    height: 400px;
+}
+
 h1 {
     font-size: 3em;
     text-align: center;
@@ -193,14 +225,41 @@ MEDIA QUERIES
 
 /* Desktop */
 
-@media (min-width: 1200px) {}
+@media screen 
+  /* 2560px = 160em */
+  and (max-width: 160em)
+  /* 1280px = 80em */
+  and (min-width: 80em) { 
+  
+  /* Temporary Styling. Add your own. */
+
+
+}
 
 
 /* Tablet */
 
-@media (min-width: 768px) {}
+@media screen 
+   /* 1279 = 79.9375em */  
+  and (max-width: 79.9375em)
+   /* 768px = 160em */
+  and (min-width: 48em)  {
+  
+  /* Temporary Styling. Add your own. */
+
+
+}
 
 
 /* Mobile */
 
-@media (min-width: 480px) {}
+@media screen
+  /* 767px = 47.9375em */
+  and (max-width: 47.9375em)
+  /* 320px = 20em */
+  and (min-width: 20em) { 
+  
+  /* Temporary Styling. Add your own. */
+
+  
+}
