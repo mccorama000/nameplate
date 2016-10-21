@@ -85,10 +85,15 @@ article {
 }
 
 
+a:link {
+    text-decoration: none;
+    padding-right: 75px;
+}
+
 li {
     display: inline;
     margin: 0 auto;
-    padding: 30px;
+ 
 
     
 }
@@ -110,10 +115,14 @@ h3 {
 }
 
 .facebook,
-.instagram,
-.twitter {
+.instagram {
     height: 8%;
     width: 8%;
+}
+
+.twitter {
+    height: 6%;
+    width: 6%;
 }
 
 h1:hover {
